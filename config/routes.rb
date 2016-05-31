@@ -13,6 +13,12 @@ Rails.application.routes.draw do
 
   get "do_refactor", to: "pages#do_refactor", as: :do_refactor
 
+  get "write_code", to: "pages#write_code", as: :write_code
+
+  get "write_test", to: "pages#write_test", as: :write_test
+
+  get "new_feature", to: "pages#new_feature", as: :new_feature
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
