@@ -7,7 +7,11 @@ Rails.application.routes.draw do
 
   root 'pages#index'
 
-  get "second", to: "pages#second", as: :second
+  get "pass", to: "pages#pass", as: :pass
+
+  get "refactor", to: "pages#refactor", as: :refactor
+
+  get "do_refactor", to: "pages#do_refactor", as: :do_refactor
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
